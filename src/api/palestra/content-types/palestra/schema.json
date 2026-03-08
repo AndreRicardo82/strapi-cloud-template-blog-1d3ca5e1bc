@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "palestras",
+  "info": {
+    "singularName": "palestra",
+    "pluralName": "palestras",
+    "displayName": "Palestra"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "data": {
+      "type": "date"
+    },
+    "descricao": {
+      "type": "text"
+    },
+    "local": {
+      "type": "string"
+    },
+    "foto": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

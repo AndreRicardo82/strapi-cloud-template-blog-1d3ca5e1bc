@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "artigos",
+  "info": {
+    "singularName": "artigo",
+    "pluralName": "artigos",
+    "displayName": "Artigo"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid"
+    },
+    "conteudo": {
+      "type": "text"
+    },
+    "capa": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "dados_grafico": {
+      "type": "json"
+    }
+  }
+}

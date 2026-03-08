@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ia_pricing_basics",
+  "info": {
+    "singularName": "ia-pricing-basic",
+    "pluralName": "ia-pricing-basics",
+    "displayName": "IA_Pricing_basic"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titulo_aula": {
+      "type": "string"
+    },
+    "transcricao": {
+      "type": "text"
+    },
+    "instrucoes_prompt": {
+      "type": "text"
+    },
+    "categoria": {
+      "type": "string"
+    },
+    "arquivo_apoio": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "links": {
+      "type": "text"
+    }
+  }
+}

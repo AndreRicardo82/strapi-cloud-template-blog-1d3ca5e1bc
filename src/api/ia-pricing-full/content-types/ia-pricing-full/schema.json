@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ia_pricing_fulls",
+  "info": {
+    "singularName": "ia-pricing-full",
+    "pluralName": "ia-pricing-fulls",
+    "displayName": "IA_Pricing_full"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titulo_aula": {
+      "type": "string"
+    },
+    "transcricao": {
+      "type": "text"
+    },
+    "instrucoes_prompt": {
+      "type": "text"
+    },
+    "categoria": {
+      "type": "string"
+    },
+    "arquivo_apoio": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "links": {
+      "type": "text"
+    }
+  }
+}
