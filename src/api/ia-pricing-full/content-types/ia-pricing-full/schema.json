@@ -35,6 +35,12 @@
     },
     "links": {
       "type": "text"
+    },
+    "destinacao": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid"
     }
   }
 }

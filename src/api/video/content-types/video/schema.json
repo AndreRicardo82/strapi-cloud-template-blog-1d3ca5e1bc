@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "palestras",
+  "collectionName": "videos",
   "info": {
-    "singularName": "palestra",
-    "pluralName": "palestras",
-    "displayName": "Palestra"
+    "singularName": "video",
+    "pluralName": "videos",
+    "displayName": "Video"
   },
   "options": {
     "draftAndPublish": true
@@ -17,16 +17,10 @@
     "titulo": {
       "type": "string"
     },
-    "data": {
-      "type": "date"
-    },
-    "descricao": {
+    "link": {
       "type": "text"
     },
-    "local": {
-      "type": "string"
-    },
-    "foto": {
+    "Video": {
       "type": "media",
       "multiple": false,
       "allowedTypes": [
@@ -41,6 +35,9 @@
     },
     "categoria": {
       "type": "string"
+    },
+    "descricao": {
+      "type": "text"
     }
   }
 }

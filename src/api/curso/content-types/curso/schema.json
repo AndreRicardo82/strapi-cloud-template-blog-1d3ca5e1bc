@@ -11,6 +11,9 @@
   },
   "pluginOptions": {},
   "attributes": {
+    "slug": {
+      "type": "uid"
+    },
     "titulo": {
       "type": "string"
     },
@@ -24,6 +27,12 @@
       "type": "string"
     },
     "link_venda": {
+      "type": "string"
+    },
+    "landing_page": {
+      "type": "text"
+    },
+    "destinacao": {
       "type": "string"
     }
   }

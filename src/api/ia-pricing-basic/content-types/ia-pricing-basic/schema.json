@@ -11,6 +11,9 @@
   },
   "pluginOptions": {},
   "attributes": {
+    "slug": {
+      "type": "uid"
+    },
     "titulo_aula": {
       "type": "string"
     },
@@ -35,6 +38,9 @@
     },
     "links": {
       "type": "text"
+    },
+    "destinacao": {
+      "type": "string"
     }
   }
 }

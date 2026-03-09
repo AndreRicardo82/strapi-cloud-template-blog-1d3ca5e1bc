@@ -56,6 +56,12 @@
     },
     "dados_grafico": {
       "type": "json"
+    },
+    "destinacao": {
+      "type": "string"
+    },
+    "links": {
+      "type": "text"
     }
   }
 }
