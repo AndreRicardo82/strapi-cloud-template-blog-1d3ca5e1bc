@@ -615,12 +615,13 @@ export interface ApiCursoCurso extends Struct.CollectionTypeSchema {
       Schema.Attribute.Private;
     descricao: Schema.Attribute.Text;
     destinacao: Schema.Attribute.String;
+    foto: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     landing_page: Schema.Attribute.Text;
     link_venda: Schema.Attribute.String;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<'oneToMany', 'api::curso.curso'> &
       Schema.Attribute.Private;
-    precoavista: Schema.Attribute.Decimal;
+    preco: Schema.Attribute.String;
     publishedAt: Schema.Attribute.DateTime;
     slug: Schema.Attribute.UID;
     titulo: Schema.Attribute.String;

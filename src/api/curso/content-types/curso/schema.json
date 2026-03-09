@@ -20,9 +20,6 @@
     "descricao": {
       "type": "text"
     },
-    "precoavista": {
-      "type": "decimal"
-    },
     "condicaopagamento": {
       "type": "string"
     },
@@ -33,6 +30,19 @@
       "type": "text"
     },
     "destinacao": {
+      "type": "string"
+    },
+    "foto": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "preco": {
       "type": "string"
     }
   }
